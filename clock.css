@@ -1,0 +1,61 @@
+.clockContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    }
+  
+  #time {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  #date {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .nameContainer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 12rem;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .name-link {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  button {
+    margin: 0 0.5rem;
+  }
+
+  #font-family {
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }

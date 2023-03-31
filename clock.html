@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clock.css">
+    <script src ="clock.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Times+New+Roman&display=swap" rel="stylesheet">
+    <title>Kell</title>
+</head>
+<body>
+    <div class="clockContainer">
+        <p id="time"></p>
+        <p id="date"></p>
+        
+    </div>
+    <div class="buttonContainer">
+      <button id="decrease-font-size">-</button>
+      <button id="increase-font-size">+</button>
+      <select id="font-family">
+        <option value="Roboto">Roboto</option>
+        <option value="Lato">Lato</option>
+        <option value="Open Sans">Open Sans</option>
+        <option value="Arial">Arial</option>
+        <option value="Times New Roman">Times New Roman</option>
+      </select>
+      <label id="font-color">Teksti värv:</label>
+      <input type="color" id="font-color-button">
+      <button id="background-color">Taustavärv</button>  
+    </div>
+    <div class="nameContainer">
+      Annika Rohtmets
+      <a href="https://github.com/rohtanni/kodutoo_1" class="name-link">https://github.com/rohtanni/kodutoo_1</a>
+    </div>
+</body>
+</html>
